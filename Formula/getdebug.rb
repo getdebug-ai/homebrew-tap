@@ -3,28 +3,28 @@
 class Getdebug < Formula
   desc "AI-powered codebase analyzer and auto-fixer — security + bug checks before you ship"
   homepage "https://getdebug.dev"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/getdebug-ai/cli/releases/download/v0.2.0/getdebug_0.2.0_darwin_arm64.tar.gz"
-      sha256 "3d5089fa04792a38e86f7d83748e10408f6b3cf920c4e697a5f38829be3039bc"
+      url "https://github.com/getdebug-ai/cli/releases/download/v0.3.0/getdebug_0.3.0_darwin_arm64.tar.gz"
+      sha256 "3dbc5cbeb6ac30091b34e9c30813eab7c8fa77421546bf8818fcbd4445f049fe"
     end
     on_intel do
-      url "https://github.com/getdebug-ai/cli/releases/download/v0.2.0/getdebug_0.2.0_darwin_x86_64.tar.gz"
-      sha256 "ef49769c02e2a3bba95b1aa98549f47bea2a541e5d0989fe553632c71785e973"
+      url "https://github.com/getdebug-ai/cli/releases/download/v0.3.0/getdebug_0.3.0_darwin_x86_64.tar.gz"
+      sha256 "c30d15ca1507e639f37126d0f5e7638f03a9e5e384f6b7c80f2f17b57543c4a3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/getdebug-ai/cli/releases/download/v0.2.0/getdebug_0.2.0_linux_arm64.tar.gz"
-      sha256 "24640f41ee6df79daff9878f29b98fe00ce851bc9f3029be69cbc4852b11e963"
+      url "https://github.com/getdebug-ai/cli/releases/download/v0.3.0/getdebug_0.3.0_linux_arm64.tar.gz"
+      sha256 "d642fac6bdbc9d92b9a2bf02679be1b92e654b11c8196f3171f14f36fa314ec7"
     end
     on_intel do
-      url "https://github.com/getdebug-ai/cli/releases/download/v0.2.0/getdebug_0.2.0_linux_x86_64.tar.gz"
-      sha256 "06e0db3304647d7210e9b1a6c89bf6c77119a181574033a66cac6cf0e372d75a"
+      url "https://github.com/getdebug-ai/cli/releases/download/v0.3.0/getdebug_0.3.0_linux_x86_64.tar.gz"
+      sha256 "808eab21f783fc75d4b29aee9788267b160412573ee46fbf1d06b07317a8f78d"
     end
   end
 
